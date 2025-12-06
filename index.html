@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="styleSheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1><b>Currency Converter</b></h1>
+        <br>
+        
+        <h3>Enter Value</h3>
+        <input value="1" type="number">
+        <div class="dropdown">
+            <div>
+                <h2>From</h2>
+                <img id="FromImg" class="flag" src="INR.jpg">
+                <select id="From"></select>
+            </div>
+            <div id="icon">
+            <button id="change"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+            <div>
+                <h2>To</h2>
+                <img id="ToImg" class="flag" src="INR.jpg">
+                <select id="To"></select>
+            </div>
+        </div>
+        
+        <button id="button">Convert</button>
+
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
